@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx run client:serve:production",
-    "build": "nx run client:build:production",
-    "test": "nx run client:test:production",
+    "start": "next run client:serve:production",
+    "build": "next run client:build:production",
+    "test": "next run client:test:production",
     "cypress:open": "cypress open"
   },
   "private": true,
