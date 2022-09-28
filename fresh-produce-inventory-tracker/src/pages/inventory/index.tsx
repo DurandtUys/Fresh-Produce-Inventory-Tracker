@@ -4,8 +4,8 @@
 /* eslint-disable-next-line */
 // react plugin used to create charts
 import { IoAdd, IoSearch } from 'react-icons/io5';
-import InventoryTable from '../../src/components/inventory-table/inventory-table';
-import Modal from '../../src/components/modal/modal';
+import InventoryTable from '../components/inventory-table/inventory-table';
+import Modal from '../components/modal/modal';
 import { useState } from 'react';
 import { unstable_getServerSession } from 'next-auth/next';
 import { options } from '../api/auth/[...nextauth]';
